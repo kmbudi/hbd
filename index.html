@@ -18,85 +18,6 @@
                 box-sizing: border-box;
             }
 
-            .grid-gallery {
-                column-gap: .7%;
-                display: grid;	
-                grid-template-columns: 16.42% 12.35% 12.35% 12.5% 12.5% 12.35% 8.28% 8.28%; /*230px 173px 173px 175px 175px 173px 116px 116px*/
-                grid-template-rows: 1fr .07fr .12fr .44fr .638fr;
-                grid-gap: 10px;
-                grid-column-gap: .7%;
-                position: relative;
-            }
-
-            .grid-gallery img {
-                border-radius: 4px;
-                height: auto;
-                width: 100%;
-            }
-
-            .grid-gallery img:nth-of-type(1) {
-                grid-column: 1 / span 2;
-                grid-row: 1 / span 3;
-            }
-
-            .grid-gallery img:nth-of-type(2) {
-                grid-column: 1;
-                grid-row: 4 / span 2;
-            }
-
-            .grid-gallery img:nth-of-type(3) {
-                grid-column: 2;
-                grid-row: 4 / span 2;
-            }
-
-            .grid-gallery img:nth-of-type(4) {
-                align-self: end;
-                grid-column: 3;
-                grid-row: 1 / span 5;
-            }
-
-            .grid-gallery img:nth-of-type(5) {
-                grid-column: 4 / span 2;
-                grid-row: 1 / span 2;
-            }
-
-            .grid-gallery img:nth-of-type(6) {
-                grid-column: 4;
-                grid-row: 3 / span 2;
-            }
-
-            .grid-gallery img:nth-of-type(7) {
-                grid-column: 5;
-                grid-row: 3 / span 2;
-            }
-
-            .grid-gallery img:nth-of-type(8) {
-                grid-column: 4 / span 2;
-                grid-row: 5;
-            }
-
-            .grid-gallery img:nth-of-type(9) {
-                align-self: center;
-                grid-column: 6;
-                grid-row: 1 / span 5;
-            }
-
-            .grid-gallery img:nth-of-type(10) {
-                align-self: end;
-                grid-column: 7;
-                grid-row: 1;
-            }
-
-            .grid-gallery img:nth-of-type(11) {
-                align-self: end;
-                grid-column: 8;
-                grid-row: 1;
-            }
-
-            .grid-gallery img:nth-of-type(12) {
-                grid-column: 7 / span 2;
-                grid-row: 2 / span 4;
-            }
             .btn-purple {
                 color: #fff;
                 background-color: #6C63FF;
@@ -152,20 +73,20 @@
             <div class="container mt-5 pt-3 w-100">
                 <div class="d-block">
                     <svg id="Layer_1" enable-background="new 0 0 512.349 512.349" height="28" viewBox="0 0 512.349 512.349" width="28" xmlns="http://www.w3.org/2000/svg"><g><path d="m273.333 82.274h-87.639v30c25.236 0 45.768 20.531 45.768 45.768v28.371l111.239-19.626v-15.145c0-38.25-31.118-69.368-69.368-69.368z" fill="#4895ff"/><path d="m231.462 355.314v28.367c0 25.236-20.531 45.768-45.768 45.768v30h87.639c38.25 0 69.368-31.119 69.368-69.369v-15.14z" fill="#4895ff"/><path d="m231.462 355.314v28.367c0 25.236-20.531 45.768-45.768 45.768v30h87.639c38.25 0 69.368-31.119 69.368-69.369v-15.14z" fill="#424ede"/><path d="m125.869 242.964c0-36.47-29.671-66.141-66.141-66.141h-59.728v42.897c0 20.585 9.456 39 24.249 51.14-14.793 12.141-24.249 30.556-24.249 51.141v42.896h59.729c36.47 0 66.141-29.67 66.141-66.14v-55.793z" fill="#4895ff"/><path d="m0 322.001v42.896h59.729c36.47 0 66.141-29.67 66.141-66.14v-27.896h-101.623c-14.792 12.142-24.247 30.556-24.247 51.14z" fill="#424ede"/><path d="m508.059 263.392c-.728-1.266-18.158-31.343-49.204-61.638-32.869-32.074-68.831-52.31-105.445-59.591-15.468 42.777-23.305 86.029-23.306 128.7-.001 42.673 7.837 85.925 23.304 128.699 36.615-7.281 72.577-27.517 105.447-59.591 31.046-30.295 48.477-60.372 49.204-61.638l4.29-7.471z" fill="#beebfa"/><path d="m330.104 270.864c-.001 42.673 7.837 85.925 23.304 128.699 36.615-7.281 72.577-27.517 105.447-59.591 31.046-30.295 48.477-60.372 49.204-61.638l4.29-7.471-182.245.001c0-.001 0-.001 0 0z" fill="#5ecef4"/><path d="m382.263 150.645c-19.564-7.616-39.508-11.529-59.446-11.529-54.517 0-110.573 21.285-162.109 61.554-38.503 30.084-60.936 59.979-61.871 61.237l-6.664 8.955 6.664 8.955c.936 1.258 23.368 31.153 61.871 61.237 51.536 40.269 107.593 61.554 162.109 61.554 19.938 0 39.882-3.912 59.446-11.529-14.697-40.056-22.16-80.467-22.159-120.217 0-39.744 7.463-80.156 22.159-120.217z" fill="#5ecef4"/><g><path d="m398.426 227.377h30.002v30h-30.002z" fill="#60382c"/></g><g><path d="m426.094 92.903h30.002v30h-30.002z" fill="#beebfa"/></g><g><path d="m466.096 132.906h30.002v30h-30.002z" fill="#beebfa"/></g><g><path d="m466.096 52.9h30.002v30h-30.002z" fill="#beebfa"/></g><g><path d="m398.426 227.377h30.002v30h-30.002z" fill="#3c1b13"/></g><g><path d="m426.094 92.903h30.002v30h-30.002z" fill="#5ecef4"/></g><g><path d="m466.096 132.906h30.002v30h-30.002z" fill="#5ecef4"/></g><g><path d="m466.096 52.9h30.002v30h-30.002z" fill="#5ecef4"/></g><path d="m360.104 270.863h-267.932l6.664 8.955c.936 1.258 23.368 31.153 61.871 61.237 51.536 40.269 107.593 61.554 162.109 61.554 19.938 0 39.882-3.912 59.446-11.529-14.696-40.055-22.159-80.467-22.158-120.217z" fill="#4895ff"/></g></svg>
-                    <h5 class="d-inline ml-2">30 November 2020</h5>
+                    <h5 class="d-inline ml-2">07 Januari 2022</h5>
                 </div>
                 <div class="row mt-4 h-75">
                     <div class="col-md-6 col-sm-12 my-auto">
                         <lottie-player id="lottie" src="https://assets4.lottiefiles.com/packages/lf20_dwQ1OP.json" background="transparent"  speed="1"  style="width: 140px;height: 140px;position: fixed;top: 75px;right: 90px;transform: rotate(180deg);" loop autoplay></lottie-player>
                         <lottie-player id="lottie-fire" src="https://assets4.lottiefiles.com/private_files/lf30_9xgG23.json" background="transparent"  speed="1"  style="width: 350px;height: 500px;position: absolute; left: 390px; top: -290px" loop autoplay></lottie-player>
-                        <h1 style="font-size: 3em; color: #000;"><span style="color: #8591B0">Hi Guys!</span>
+                        <h1 style="font-size: 3em; color: #000;"><span style="color: #8591B0">Hi Weda!</span>
                             <br>
-                            <span style="color: #8591B0;">It's Wesgebe</span> Birthday
-                        </h1>
+                            <span style="color: #8591B0;">It's Weda</span> Birthday Rek!
+                        Happy Level Up on Your Special Day!!!</h1>
                         <h6 style="line-height: 1.8; letter-spacing: 0.7px;">
-                            Lu ganti aja deh ini kata katanya sob <h1 class="d-inline" style="color: #8591B0">Happy birthday,</h1> ini juga terserah lu mau diganti kek gimanapun bodoamat kontol, tanggalnya jangan lupa diganti ya mek
+                             <h1 class="d-inline" style="color: #8591B0">Happy birthday!,</h1>Happy Level Up on Your Special Day!!! Cheers to another year of happiness, success, and more blessings to come
                         </h6>
-                        <button type="button" class="d-block btn btn-purple px-5 mt-2 send-greet">Send a Greeting</button>
+                        <button type="button" class="d-block btn btn-purple px-5 mt-2 send-greet">orang yang ultah</button>
                     </div>
                     <div class="text-center col-md-6 col-sm-12 my-auto">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 659.093 460.934">
@@ -373,13 +294,13 @@
                 </div>
                 <div class="row rounded justify-content-center align-items-center py-3 mt-14rem text-center">
                     <div class="w-100">
-                        <h1>Here is ur gift, SGB!</h1>
+                        <h1>Here is ur gift, Wed!</h1>
                         <h6>click it</h6>
                     </div>
                     <lottie-player id="gift" src="https://assets4.lottiefiles.com/datafiles/zc3XRzudyWE36ZBJr7PIkkqq0PFIrIBgp4ojqShI/newAnimation.json" background="transparent"  speed="1"  style="width: 350px;height: 350px;" loop autoplay></lottie-player>
                     <lottie-player id="cat" src="https://assets9.lottiefiles.com/packages/lf20_7coErG.json" background="transparent"  speed="1"  style="width: 350px;height: 350px; display: none;" loop autoplay></lottie-player>
                     <div class="w-100">
-                        <p id="pulang">Hadiahnya ada di paman sam<br><span>Minta gih ke paman sam</span><br><span>Makasih!</span> 
+                        <p id="pulang">Hadiahnya doa aja ya<br><span>Makasih!</span> 
                             <svg id="Capa_1" enable-background="new 0 0 512 512" height="30" viewBox="0 0 512 512" width="30" xmlns="http://www.w3.org/2000/svg">
                                 <g>
                                     <g>
@@ -413,27 +334,10 @@
                         </p>
                     </div>
                 </div>
-                <div class="px-3 mt-5 mb-5">
-                    <div class="grid-gallery active">
-                        <img width="413" height="270" src="/img/p1.png">
-                        <img width="230" height="200" src="https://via.placeholder.com/230x200"> 
-                        <img width="173" height="153" src="https://via.placeholder.com/173x153"> 
-                        <img width="173" height="440" src="https://via.placeholder.com/173x440">
-                        <img width="359" height="235" src="https://via.placeholder.com/359x235">
-                        <img width="175" height="125" src="https://via.placeholder.com/175x125"> 
-                        <img width="175" height="125" src="https://via.placeholder.com/175x125">
-                        <img width="359" height="125" src="https://via.placeholder.com/359x125">
-                        <img width="173" height="328" src="https://via.placeholder.com/173x328">
-                        <img width="116" height="104" src="https://via.placeholder.com/116x104">
-                        <img width="116" height="104" src="https://via.placeholder.com/116x104">
-                        <img width="242" height="210" src="https://via.placeholder.com/242x210"> 
-                    </div>
-                </div>
-            </div>
             <!--[ footer ] -->
             <div id="footer">
                 <div class="container text-center" style="background-color: #fff;">
-                <p class="footer-block">Made with <i class="fa fa-heart" style="color:rgb(252, 88, 92)"></i> just for u sweet creature</p>
+                <p class="footer-block">Made with budiianggara <i class="fa fa-heart" style="color:rgb(252, 88, 92)"></i> just me</p>
                 </div>
             </div>
         </div>
